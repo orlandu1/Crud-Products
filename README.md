@@ -1,28 +1,41 @@
-ESTRUTURA DE DIRETÓRIOS
+ESTRUTURA DE DIRETÓRIOS - DESAFIO DE ENTREVISTA
+CRUD SIMPLES DE PRODUTOS FEITO EM REACT + PHP POO + TAILWIND + SQL + JAVASCRIPT
+ORLANDO ALVES
+ESTE PROJETO SERÁ ENVIADO SEM SER BUILDADO PARA QUE O AVALIADOR VEJA TODA A ESTRUTURA DE DIRETÓRIOS JÁ QUE O BUILD RETIRA
+--------------------------------------------------------------------------------------------------------------------------
 
-src/
-├── backend/             # Arquivos PHP para comunicação com o SQL
-│   ├── db/              # Configuração e conexão com o banco de dados
-│   │   └── connection.php # Configuração da conexão com o SQL
-│   ├── api/             # Endpoints da API
-│   │   ├── getProducts.php # Endpoint para listar produtos
-│   │   ├── addProduct.php  # Endpoint para adicionar produto
-│   │   └── deleteProduct.php # Endpoint para excluir produto
-├── components/          # Componentes reutilizáveis
-│   ├── ProductForm.jsx  # Formulário para cadastro/edição de produtos
-│   ├── ProductList.jsx  # Lista de produtos
-│   └── Navbar.jsx       # Barra de navegação (se necessário)
-├── pages/               # Páginas principais
-│   ├── HomePage.jsx     # Página inicial
-│   ├── ProductsPage.jsx # Página de listagem/cadastro de produtos
-│   └── NotFound.jsx     # Página para rota não encontrada
-├── services/            # Serviços para lógica de negócio
-│   └── productService.js # Funções para manipular dados (ex.: CRUD)
-├── utils/               # Funções utilitárias
-│   └── validations.js   # Validações ou outras funções reutilizáveis
-├── App.jsx              # Componente raiz
-├── main.jsx             # Arquivo de entrada
-└── index.html           # Template HTML
+├── node_modules/          # Diretório gerado pelo gerenciador de pacotes contendo dependências do projeto
+├── public/                # Arquivos públicos acessíveis diretamente pelo navegador
+│   └── vite.svg           # Logo do Vite
+├── src/                   # Código-fonte principal do projeto
+    ├── assets/            # Recursos estáticos como imagens e ícones
+    │   └── box.png
+    ├── backend/           # Lógica de backend
+    │   └── api/           
+    │       ├── conn.php   # Arquivo de conexão com o banco de dados
+    │       └── Products.php # Endpoint ou lógica relacionada a produtos
+    ├── components/        # Componentes reutilizáveis do React
+    │   ├── Form/          # Componentes relacionados a formulários
+    │   │   └── Form.jsx
+    │   ├── List/          # Componentes relacionados a listas
+    │   │   └── List.jsx
+    │   └── NavBar/        # Componentes relacionados à barra de navegação
+    │       └── NavBar.jsx
+    ├── pages/             # Páginas do aplicativo
+    │   ├── AddProduct/
+    │   │   └── AddProduct.jsx
+    │   ├── Error/
+    │   │   └── Error.jsx
+    │   └── HomePage/
+    │       └── HomePage.jsx
+    ├── routes/            # Configuração de rotas do React
+    │   └── routes.jsx
+    ├── utils/             # Utilitários e funções auxiliares
+    │   └── Modal.jsx
+    ├── App.jsx            # Componente principal do React
+    ├── index.css          # Estilos globais do projeto
+    └── main.jsx           # Ponto de entrada do aplicativo React
+
 
 ---------------------------------------------------------------------------------
 
