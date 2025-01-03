@@ -1,9 +1,31 @@
-ESTRUTURA DE DIRETÓRIOS - DESAFIO DE ENTREVISTA
-CRUD SIMPLES DE PRODUTOS FEITO EM REACT + PHP POO + TAILWIND + SQL + JAVASCRIPT
-ORLANDO ALVES
-ESTE PROJETO SERÁ ENVIADO SEM SER BUILDADO PARA QUE O AVALIADOR VEJA TODA A ESTRUTURA DE DIRETÓRIOS JÁ QUE O BUILD RETIRA
---------------------------------------------------------------------------------------------------------------------------
+Estrutura de Diretórios - Desafio de Entrevista
 
+Descrição do Projeto
+  Este é um CRUD simples de produtos desenvolvido com as seguintes tecnologias:
+
+  React
+  PHP (POO)
+  Tailwind CSS
+  SQL
+  JavaScript
+
+Objetivo Futuro
+
+  Transformar este projeto no S.A.V.E. (Sistema de Administração de Vendas e Estoque), um sistema completo para gerenciamento de vendas e estoque.
+
+Autor
+
+  Orlando Alves
+
+Aviso
+
+  Este projeto será enviado sem ser buildado para permitir que o avaliador visualize toda a estrutura de diretórios e o código-fonte completo. Isso ocorre porque o processo de build remove muitos arquivos de desenvolvimento e oculta a arquitetura do projeto.
+
+Estrutura de Diretórios
+Abaixo está a estrutura do projeto:
+
+
+├── dist/                  # Build de projeto para distribuição
 ├── node_modules/          # Diretório gerado pelo gerenciador de pacotes contendo dependências do projeto
 ├── public/                # Arquivos públicos acessíveis diretamente pelo navegador
 │   └── vite.svg           # Logo do Vite
@@ -34,25 +56,46 @@ ESTE PROJETO SERÁ ENVIADO SEM SER BUILDADO PARA QUE O AVALIADOR VEJA TODA A EST
     │   └── Modal.jsx
     ├── App.jsx            # Componente principal do React
     ├── index.css          # Estilos globais do projeto
+    ├── .gitignore         # Controle de versionamento do GIT
+    ├── vite.config.js         # Arquivo de configurações do VITE que contém o direcionamento de proxy e servidor de arquivos
     └── main.jsx           # Ponto de entrada do aplicativo React
 
 
 ---------------------------------------------------------------------------------
 
-Requisito: 𝐂𝐚𝐝𝐚𝐬𝐭𝐫𝐨 𝐞 𝐥𝐢𝐬𝐭𝐚𝐠𝐞𝐦 𝐝𝐞 𝐩𝐫𝐨𝐝𝐮𝐭𝐨𝐬
+Funcionalidades do Projeto
 
-𝐂𝐚𝐝𝐚𝐬𝐭𝐫𝐨:
+CRUD completo de produtos:
 
-- Formulário com os campos abaixo:
+  Criação
+  Leitura
+  Atualização
+  Exclusão
+  Integração entre frontend (React) e backend (PHP com POO).
+  Estilização moderna com Tailwind CSS.
+  Gerenciamento de estados e navegação com React Router.
+  Estrutura escalável e modularizada para fácil manutenção.
 
-  - Nome do produto - campo de texto
-  - Descrição do produto - campo de texto
-  - Valor do produto - campo de valor
-  - Disponível para venda - campo com 2 opções: sim / não
+Como Executar o Projeto
 
-𝐋𝐢𝐬𝐭𝐚𝐠𝐞𝐦:
+Clone o repositório:
 
-- Colunas da listagem: nome, valor
-- Ordenação por valor do menor para o maior
-- Quando cadastrar um novo produto é para abrir a listagem automaticamente
-- Deve existir um botão para cadastrar um novo produto a partir da listagem
+  git clone 
+
+Instale as dependências:
+
+  cd <PASTA_DO_PROJETO>
+  npm install
+
+Configure o backend:
+
+  Certifique-se de que seu servidor local (como XAMPP ou WAMP) está configurado corretamente.
+  Importe o arquivo de banco de dados (SQL) para sua instância de MySQL.
+
+Execute o frontend:
+
+  npm run dev
+  Acesse o aplicativo em:
+  http://localhost:5173
+
+Se precisar de ajuda ou orientações, é só avisar! 😊
