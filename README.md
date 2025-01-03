@@ -52,6 +52,8 @@ Abaixo está a estrutura do projeto:
     │       └── HomePage.jsx
     ├── routes/            # Configuração de rotas do React
     │   └── routes.jsx
+    ├── sql/            # Arquivo de sql
+    │   └── sql.sql
     ├── utils/             # Utilitários e funções auxiliares
     │   └── Modal.jsx
     ├── App.jsx            # Componente principal do React

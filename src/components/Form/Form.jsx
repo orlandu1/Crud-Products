@@ -103,7 +103,7 @@ export default function Form() {
                 id="availableYes"
                 name="isAvailable"
                 value="1"
-                checked={formData.isAvailable === '1'} // Comparar com '1' como string
+                checked={formData.isAvailable === '1'}
                 onChange={handleChange}
                 className="mr-2"
               />
@@ -114,7 +114,7 @@ export default function Form() {
                 id="availableNo"
                 name="isAvailable"
                 value="0"
-                checked={formData.isAvailable === '0'} // Comparar com '0' como string
+                checked={formData.isAvailable === '0'}
                 onChange={handleChange}
                 className="mr-2"
               />
